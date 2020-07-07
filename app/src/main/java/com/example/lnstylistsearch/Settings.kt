@@ -21,7 +21,7 @@ class Settings : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         view.findViewById<Button>(R.id.back_settings).setOnClickListener {
-            findNavController().navigate(R.id.action_settings_to_FirstFragment)
+            findNavController().navigate(R.id.settings_to_main)
         }
     }
 }

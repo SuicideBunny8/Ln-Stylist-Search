@@ -11,4 +11,18 @@
     <string name="settings">Settings</string>
     <string name="add_to_collection">Add this item to\nyour collection</string>
     <string name="unavailable">Image unavailable</string>
+
+    <!-- Strings used for attributes -->
+    <string name="Spec1">Special Attribute 1</string>
+    <string name="Spec2">Special Attribute 2</string>
+    <string name="Color1">Primary Color</string>
+    <string name="Color2">Secondary Color</string>
+    <string name="Pose">Posed</string>
+    <string name="Rarity">Rarity</string>
+    <string name="N_C">Nation/Category</string>
+    <string name="Sty1">Style 1</string>
+    <string name="Sty2">Style 2</string>
+    <string name="search_indication_icon">Search Indication Icon</string>
+    <string name="search_item_name">Search Item Name</string>
+    <string name="search_filter_icon">Search Filter Icon</string>
 </resources>

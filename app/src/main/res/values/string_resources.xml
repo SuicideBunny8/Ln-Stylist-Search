@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Hair</item>
+        <item>Dress</item>
+        <item>Coat</item>
+        <item>Top</item>
+        <item>Bottom</item>
+        <item>Hosiery</item>
+        <item>Shoes</item>
+        <item>Accessory</item>
+        <item>Makeup</item>
+        <item>Soul</item>
+    </string-array>
+</resources>
