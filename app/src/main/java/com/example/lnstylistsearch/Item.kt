@@ -20,8 +20,9 @@ class Item : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        /*
         view.findViewById<Button>(R.id.btn_more_info).setOnClickListener {
             findNavController().navigate(R.id.main_to_info)
-        }
+        }*/
     }
 }

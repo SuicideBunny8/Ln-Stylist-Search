@@ -23,6 +23,7 @@
     <string name="Sty1">Style 1</string>
     <string name="Sty2">Style 2</string>
     <string name="search_indication_icon">Search Indication Icon</string>
-    <string name="search_item_name">Search Item Name</string>
+    <string name="search_item_name">Search Item Name/Set</string>
     <string name="search_filter_icon">Search Filter Icon</string>
+    <string name="your_selections">Your Selections</string>
 </resources>

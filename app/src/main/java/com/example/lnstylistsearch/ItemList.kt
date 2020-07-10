@@ -5,10 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.Spinner
+import android.widget.*
 import androidx.navigation.fragment.findNavController
 
 /**
@@ -44,6 +41,15 @@ class ItemList : Fragment(), AdapterView.OnItemSelectedListener {
         view.findViewById<Button>(R.id.toSettings).setOnClickListener {
             findNavController().navigate(R.id.main_to_settings)
         }
+
+        view.findViewById<Button>(R.id.btn_more_info).setOnClickListener {
+            findNavController().navigate(R.id.main_to_info)
+        }
+
+        view.findViewById<ImageButton>(R.id.btn_filter).setOnClickListener {
+            findNavController().navigate(R.id.main_to_filters)
+        }
+
     }
 
     override fun onItemSelected(p0: AdapterView<*>?, view: View?, pos: Int, id: Long) {

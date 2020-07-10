@@ -17,6 +17,9 @@
         <action
             android:id="@+id/main_to_settings"
             app:destination="@id/settings" />
+        <action
+            android:id="@+id/main_to_filters"
+            app:destination="@id/filters" />
     </fragment>
     <fragment
         android:id="@+id/Info_screen"
@@ -35,6 +38,18 @@
         tools:layout="@layout/settings">
         <action
             android:id="@+id/settings_to_main"
+            app:destination="@id/Main_Screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/filters"
+        android:name="com.example.lnstylistsearch.Filters"
+        android:label="Filters"
+        tools:layout="@layout/filters">
+        <action
+            android:id="@+id/filters_execute"
+            app:destination="@id/Main_Screen" />
+        <action
+            android:id="@+id/filters_back"
             app:destination="@id/Main_Screen" />
     </fragment>
 </navigation>
