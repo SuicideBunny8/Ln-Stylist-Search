@@ -26,4 +26,7 @@
     <string name="search_item_name">Search Item Name/Set</string>
     <string name="search_filter_icon">Search Filter Icon</string>
     <string name="your_selections">Your Selections</string>
+    <string name="id">ID</string>
+    <string name="search">Search!</string>
+    <string name="clear_filters">Clear Filters</string>
 </resources>

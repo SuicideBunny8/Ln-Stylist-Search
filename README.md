@@ -7,12 +7,10 @@ It will be designed in android studio using kotlin and will use a database and i
 
 
 ## To Do:
-Develop app UI
-
 Develop database querying to firebase
 
 Design app icon and other UI elements
 
-Write script to format data into JSON file
+Create Global variables/settings class
 
 Write script to update database without complete data reupload

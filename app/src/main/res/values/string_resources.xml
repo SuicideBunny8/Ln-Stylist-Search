@@ -12,4 +12,65 @@
         <item>Makeup</item>
         <item>Soul</item>
     </string-array>
+
+    <string-array name="color_1_ops">
+        <item>Blonde</item>
+        <item>Black</item>
+        <item>Gray</item>
+        <item>White</item>
+        <item>Dark Brown</item>
+        <item>Mid Brown</item>
+        <item>Light Brown</item>
+        <item>Purple</item>
+        <item>Light Purple</item>
+        <item>Dark Blue</item>
+        <item>Mid Blue</item>
+        <item>Light Blue</item>
+        <item>Teal</item>
+        <item>Dark Green</item>
+        <item>Mid Green</item>
+        <item>Light Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Dark Red</item>
+        <item>Red</item>
+        <item>Multicolor</item>
+        <item>Yellow</item>
+        <item>Silver</item>
+        <item>Gold</item>
+    </string-array>
+
+    <string-array name="color_2_ops">
+        <item>Blonde</item>
+        <item>Black</item>
+        <item>Gray</item>
+        <item>White</item>
+        <item>Dark Brown</item>
+        <item>Mid Brown</item>
+        <item>Light Brown</item>
+        <item>Purple</item>
+        <item>Light Purple</item>
+        <item>Dark Blue</item>
+        <item>Mid Blue</item>
+        <item>Light Blue</item>
+        <item>Teal</item>
+        <item>Dark Green</item>
+        <item>Mid Green</item>
+        <item>Light Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Dark Red</item>
+        <item>Red</item>
+        <item>Multicolor</item>
+        <item>Yellow</item>
+        <item>Silver</item>
+        <item>Gold</item>
+        <item>Warm Ray</item>
+        <item>Hot Beat</item>
+        <item>Virtual Image</item>
+        <item>Hacker\'s Secret</item>
+        <item>Heart of Ghost</item>
+        <item>Miss Skateboard</item>
+        <item>Starry Night Cruise</item>
+    </string-array>
 </resources>

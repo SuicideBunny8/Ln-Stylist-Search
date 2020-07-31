@@ -25,18 +25,18 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
-        android:text="Search!"
+        android:text="@string/search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_clr_filters"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
-        android:text="Clear Filters"
+        android:text="@string/clear_filters"
         app:layout_constraintBottom_toTopOf="@+id/btn_filters_execute"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -50,7 +50,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_clr_filters"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_filters_back">
 
@@ -145,6 +145,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
         <TextView
@@ -152,6 +156,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
         <TextView
@@ -159,6 +167,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
         <TextView
@@ -166,6 +178,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
         <TextView
@@ -173,6 +189,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
         <TextView
@@ -180,6 +200,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
         <TextView
@@ -187,6 +211,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
         <TextView
@@ -194,6 +222,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
         <TextView
@@ -201,6 +233,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeStepGranularity="1sp"
             android:textColor="@color/text" />
 
     </LinearLayout>
