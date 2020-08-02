@@ -53,17 +53,18 @@ class Filters : Fragment() {
         }
 
         view.findViewById<Button>(R.id.btn_filters_execute).setOnClickListener {
-            //Perform new search here
+            //TODO: implement database search to occur here
             findNavController().navigate(R.id.filters_execute)
         }
 
         // Clear all filters
         view.findViewById<Button>(R.id.btn_clr_filters).setOnClickListener {
-
+            //TODO: implement filter clear here
         }
 
         // make color 1 selections
         view.findViewById<Button>(R.id.btn_clr1_sel).setOnClickListener {
+            // create a dialog box for filter selection
             val builder = AlertDialog.Builder(requireContext())
             builder.setTitle("Color 1 Options")
             builder.setMultiChoiceItems(clr1List, clr1SelList, { dialog, i, b ->
@@ -72,6 +73,7 @@ class Filters : Fragment() {
 
             builder.setPositiveButton("OK") { _, _ ->
                 var nFirst = false
+                // display selections in the text box
                 for (i in clr1List.indices) {
                     val checked = clr1SelList[i]
                     if (checked) {
@@ -84,6 +86,7 @@ class Filters : Fragment() {
                     }
                 }
                 if (!nFirst) {
+                    // if all selections manually deselected clear the text box
                     txtViewClr1.text = ""
                 }
             }
@@ -101,6 +104,7 @@ class Filters : Fragment() {
 
         // make color 2 selections
         view.findViewById<Button>(R.id.btn_clr2_sel).setOnClickListener {
+            // create a dialog box for filter selection
             val builder = AlertDialog.Builder(requireContext())
             builder.setTitle("Color 2 Options")
             builder.setMultiChoiceItems(clr2List, clr2SelList, { dialog, i, b ->
@@ -109,6 +113,7 @@ class Filters : Fragment() {
 
             builder.setPositiveButton("OK") { _, _ ->
                 var nFirst = false
+                // display selections in the text box
                 for (i in clr2List.indices) {
                     val checked = clr2SelList[i]
                     if (checked) {
@@ -121,6 +126,7 @@ class Filters : Fragment() {
                     }
                 }
                 if (!nFirst) {
+                    // if all selections manually deselected clear the text box
                     txtViewClr2.text = ""
                 }
             }
@@ -138,37 +144,37 @@ class Filters : Fragment() {
 
         // make style 1 selections
         view.findViewById<Button>(R.id.btn_sty1_sel).setOnClickListener {
-
+            //TODO: repeat color 1 selection implementation here
         }
 
         // make style 2 selections
         view.findViewById<Button>(R.id.btn_sty2_sel).setOnClickListener {
-
+            //TODO: repeat color 1 selection implementation here
         }
 
         // make posed selections
         view.findViewById<Button>(R.id.btn_posed_sel).setOnClickListener {
-
+            //TODO: repeat color 1 selection implementation here
         }
 
         // make special attribute 1 selections
         view.findViewById<Button>(R.id.btn_spa1_sel).setOnClickListener {
-
+            //TODO: repeat color 1 selection implementation here
         }
 
         // make special attribute 2 selections
         view.findViewById<Button>(R.id.btn_spa2_sel).setOnClickListener {
-
+            //TODO: repeat color 1 selection implementation here
         }
 
         // make rarity selections
         view.findViewById<Button>(R.id.btn_rar_sel).setOnClickListener {
-
+            //TODO: repeat color 1 selection implementation here
         }
 
         // make gallery section selections
         view.findViewById<Button>(R.id.btn_gal_sel).setOnClickListener {
-
+            //TODO: repeat color 1 selection implementation here
         }
     }
 }

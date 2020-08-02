@@ -13,8 +13,32 @@
         <item>Soul</item>
     </string-array>
 
-    <string-array name="color_1_ops">
+    <!--> color options (different fo hair) </-->
+    <string-array name="color_1_hair_ops">
         <item>Blonde</item>
+        <item>Black</item>
+        <item>Gray</item>
+        <item>White</item>
+        <item>Dark Brown</item>
+        <item>Mid Brown</item>
+        <item>Light Brown</item>
+        <item>Purple</item>
+        <item>Light Purple</item>
+        <item>Dark Blue</item>
+        <item>Mid Blue</item>
+        <item>Light Blue</item>
+        <item>Teal</item>
+        <item>Dark Green</item>
+        <item>Mid Green</item>
+        <item>Light Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Dark Red</item>
+        <item>Red</item>
+        <item>Multicolor</item>
+    </string-array>
+
+    <string-array name="color_1_ops">
         <item>Black</item>
         <item>Gray</item>
         <item>White</item>
@@ -40,7 +64,7 @@
         <item>Gold</item>
     </string-array>
 
-    <string-array name="color_2_ops">
+    <string-array name="color_2_hair_ops">
         <item>Blonde</item>
         <item>Black</item>
         <item>Gray</item>
@@ -72,5 +96,335 @@
         <item>Heart of Ghost</item>
         <item>Miss Skateboard</item>
         <item>Starry Night Cruise</item>
+    </string-array>
+
+    <string-array name="color_2_ops">
+        <item>Black</item>
+        <item>Gray</item>
+        <item>White</item>
+        <item>Dark Brown</item>
+        <item>Mid Brown</item>
+        <item>Light Brown</item>
+        <item>Purple</item>
+        <item>Light Purple</item>
+        <item>Dark Blue</item>
+        <item>Mid Blue</item>
+        <item>Light Blue</item>
+        <item>Teal</item>
+        <item>Dark Green</item>
+        <item>Mid Green</item>
+        <item>Light Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Dark Red</item>
+        <item>Red</item>
+        <item>Multicolor</item>
+        <item>Yellow</item>
+        <item>Silver</item>
+        <item>Gold</item>
+        <item>Warm Ray</item>
+        <item>Hot Beat</item>
+        <item>Virtual Image</item>
+        <item>Hacker\'s Secret</item>
+        <item>Heart of Ghost</item>
+        <item>Miss Skateboard</item>
+        <item>Starry Night Cruise</item>
+    </string-array>
+
+    <!--> options the same for all categories </-->
+    <string-array name="posed_options">
+        <item>TRUE</item>
+        <item>FALSE</item>
+    </string-array>
+
+    <string-array name="rarity">
+        <item>❤</item>
+        <item>❤❤</item>
+        <item>❤❤❤</item>
+        <item>❤❤❤❤</item>
+        <item>❤❤❤❤❤</item>
+        <item>❤❤❤❤❤❤</item>
+        <item>💛💛💛💛💛</item>
+        <item>💛💛💛💛💛💛</item>
+    </string-array>
+
+    <string-array name="special_attributes">
+        <item>Apron</item>
+        <item>Army</item>
+        <item>Bohemia</item>
+        <item>Britain</item>
+        <item>Bunny</item>
+        <item>Cheongasm</item>
+        <item>Chinese Classical</item>
+        <item>Dancer</item>
+        <item>Denim</item>
+        <item>Dryad</item>
+        <item>European</item>
+        <item>Evening Gown</item>
+        <item>Fairy</item>
+        <item>Floral</item>
+        <item>Future</item>
+        <item>Goddess</item>
+        <item>Gothic</item>
+        <item>Harajuku</item>
+        <item>Hindu</item>
+        <item>Homewear</item>
+        <item>Kimono</item>
+        <item>Lady</item>
+        <item>Lolita</item>
+        <item>Maiden</item>
+        <item>Modern China</item>
+        <item>Navy</item>
+        <item>Office</item>
+        <item>Pajamas</item>
+        <item>Paramedics</item>
+        <item>Pet</item>
+        <item>POP</item>
+        <item>Preppy</item>
+        <item>Rain</item>
+        <item>Republic of China</item>
+        <item>Rock</item>
+        <item>Shower</item>
+        <item>Sports</item>
+        <item>Sun Care</item>
+        <item>Swimsuit</item>
+        <item>Swordsman</item>
+        <item>Traditional</item>
+        <item>Unisex</item>
+        <item>Wedding</item>
+        <item>Winter</item>
+    </string-array>
+
+    <string-array name="gallery_section">
+        <item>Apple</item>
+        <item>Lilith</item>
+        <item>Cloud</item>
+        <item>Pigeon</item>
+        <item>North</item>
+        <item>Wasteland</item>
+        <item>Ruin</item>
+        <item>Festivals</item>
+        <item>Troupe</item>
+        <item>4 Seasons</item>
+        <item>Stars</item>
+        <item>Happiness</item>
+        <item>Museum</item>
+        <item>Story Suit</item>
+    </string-array>
+
+    <!--> All style 1 lists </-->
+    <string-array name="hair1">
+        <item>Boycut</item>
+        <item>Short</item>
+        <item>Mid-Length</item>
+        <item>Long</item>
+        <item>Extra Long</item>
+    </string-array>
+
+    <string-array name="dress1">
+        <item>Mini</item>
+        <item>Short</item>
+        <item>Midi</item>
+        <item>Long</item>
+        <item>High-Low</item>
+    </string-array>
+
+    <string-array name="coat1">
+        <item>Mini</item>
+        <item>Short</item>
+        <item>Mid-Length</item>
+        <item>Long</item>
+    </string-array>
+
+    <string-array name="tops1">
+        <item>Sleeveless</item>
+        <item>Short Sleeve</item>
+        <item>Long Sleeve</item>
+    </string-array>
+
+    <string-array name="bottoms1">
+        <item>Mini</item>
+        <item>Short</item>
+        <item>Mid-Length</item>
+        <item>Long</item>
+        <item>Irregular</item>
+    </string-array>
+
+    <string-array name="hosiery1">
+        <item>Short</item>
+        <item>Mid-Length</item>
+        <item>Long</item>
+        <item>Full</item>
+        <item>Irregular</item>
+    </string-array>
+
+    <string-array name="shoes1">
+        <item>Bare Feet</item>
+        <item>No Heel</item>
+        <item>Low Heel</item>
+        <item>High Heel</item>
+        <item>Platform</item>
+    </string-array>
+    
+    <string-array name="accessories1">
+        <item>background</item>
+        <item>both handheld</item>
+        <item>brooch</item>
+        <item>ear</item>
+        <item>earrings</item>
+        <item>face accessory</item>
+        <item>foreground</item>
+        <item>gloves</item>
+        <item>ground</item>
+        <item>hair ornament</item>
+        <item>hairpin</item>
+        <item>head ornament</item>
+        <item>left hand ornament</item>
+        <item>left handheld</item>
+        <item>necklace</item>
+        <item>right hand ornament</item>
+        <item>right handheld</item>
+        <item>scarf</item>
+        <item>skin</item>
+        <item>tail</item>
+        <item>tattoo</item>
+        <item>veil</item>
+        <item>waist decoration</item>
+        <item>wing</item>
+    </string-array>
+
+    <string-array name="makeup1">
+        <item>Eyes Open, Mouth Closed</item>
+        <item>Eyes Open, Mouth Open</item>
+        <item>Eyes Closed, Mouth Closed</item>
+        <item>Eyes Closed, Mouth Open</item>
+        <item>One Eye Closed, Mouth Closed</item>
+        <item>One Eye Closed, Mouth Open</item>
+    </string-array>
+
+    <string-array name="soul1">
+        <item>soul</item>
+    </string-array>
+
+    <!--> All style 2 lists </-->
+    <string-array name="hair2">
+        <item>Ponytail</item>
+        <item>Pigtails</item>
+        <item>Braids</item>
+        <item>Bun</item>
+        <item>Updo</item>
+        <item>Half Up Half Down</item>
+        <item>Straight</item>
+        <item>Wavy</item>
+        <item>Curly</item>
+        <item>Special</item>
+    </string-array>
+
+    <string-array name="dress2">
+        <item>Fitted</item>
+        <item>Fit n Flare</item>
+        <item>Loose</item>
+        <item>Ballgown</item>
+        <item>Bodysuit</item>
+        <item>Jumpsuit</item>
+        <item>Armor</item>
+        <item>Traditional Asian</item>
+        <item>Kimono</item>
+        <item>Man suit</item>
+        <item>Suit</item>
+        <item>Special</item>
+    </string-array>
+
+    <string-array name="coat2">
+        <item>Vest</item>
+        <item>Blazer</item>
+        <item>Cape</item>
+        <item>Shawl</item>
+        <item>Sash</item>
+        <item>Sleeves</item>
+        <item>Cardigan</item>
+        <item>Sweater</item>
+        <item>Apron</item>
+        <item>Robe</item>
+        <item>Light Jacket</item>
+        <item>Outdoor Jacket</item>
+        <item>Light Coat</item>
+        <item>Winter Coat</item>
+        <item>Ribbons</item>
+        <item>Special</item>
+    </string-array>
+
+    <string-array name="tops2">
+        <item>T-Shirt</item>
+        <item>Blouse</item>
+        <item>Crop Top</item>
+        <item>Shirt</item>
+        <item>Tank Top</item>
+        <item>Corset</item>
+        <item>Sweater</item>
+        <item>Hoodie</item>
+        <item>Bikini/Bra</item>
+        <item>Tunic</item>
+        <item>Jacket</item>
+        <item>Traditional Asian</item>
+        <item>Special</item>
+    </string-array>
+
+    <string-array name="bottoms2">
+        <item>Skirt</item>
+        <item>Pants</item>
+        <item>Overall</item>
+        <item>Bikini</item>
+        <item>Bikini</item>
+    </string-array>
+
+    <string-array name="hosiery2">
+        <item>Leglet</item>
+        <item>Sheer</item>
+        <item>Opaque</item>
+        <item>Fishnet</item>
+        <item>Ripped</item>
+        <item>Thighs</item>
+        <item>Special</item>
+    </string-array>
+
+    <string-array name="shoes2">
+        <item>Ankle Boots</item>
+        <item>Boots</item>
+        <item>Sandals</item>
+        <item>Trainers</item>
+        <item>Slippers</item>
+        <item>Pumps</item>
+        <item>Wedges</item>
+        <item>Oxford Shoes</item>
+        <item>Loafers</item>
+        <item>Flats</item>
+        <item>Special</item>
+    </string-array>
+
+    <string-array name="accessories_soul2">
+        <item>Food</item>
+        <item>Weapon</item>
+        <item>Plants</item>
+        <item>Animals</item>
+        <item>Furniture</item>
+        <item>Vehicle</item>
+        <item>Music</item>
+        <item>Toys</item>
+        <item>Tools</item>
+        <item>Holiday</item>
+        <item>Structure</item>
+        <item>Magic</item>
+        <item>Momo</item>
+        <item>Tech</item>
+        <item>Holy</item>
+    </string-array>
+
+    <string-array name="makeup2">
+        <item>Laughing</item>
+        <item>Sleeping</item>
+        <item>Crying</item>
+        <item>Male</item>
+        <item>Tongue</item>
     </string-array>
 </resources>

@@ -12,6 +12,9 @@ import androidx.navigation.fragment.findNavController
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
 class ItemList : Fragment(), AdapterView.OnItemSelectedListener {
+    private val categories = R.array.category_array
+    private lateinit var test : TextView
+
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
@@ -23,11 +26,13 @@ class ItemList : Fragment(), AdapterView.OnItemSelectedListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        test = requireView().findViewById<TextView>(R.id.testText)
+
         val catSpinner: Spinner = requireView().findViewById(R.id.Category_Spinner)
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter.createFromResource(
             requireActivity(),
-            R.array.category_array,
+            categories,
             android.R.layout.simple_spinner_item
         ).also { adapter ->
             // Specify the layout to use when the list of choices appears
@@ -36,6 +41,8 @@ class ItemList : Fragment(), AdapterView.OnItemSelectedListener {
             catSpinner.adapter = adapter
         }
 
+        // TODO: this needs to be edited so it changes based on the current category in FilterVars
+        catSpinner.setSelection(0)
         catSpinner.onItemSelectedListener = this
 
         view.findViewById<Button>(R.id.toSettings).setOnClickListener {
@@ -53,10 +60,8 @@ class ItemList : Fragment(), AdapterView.OnItemSelectedListener {
     }
 
     override fun onItemSelected(p0: AdapterView<*>?, view: View?, pos: Int, id: Long) {
-        //TODO("Not yet implemented")
+        // TODO: Have this update the current category in Filter vars
     }
 
-    override fun onNothingSelected(parent: AdapterView<*>) {
-        //TODO("Not yet implemented")
-    }
+    override fun onNothingSelected(parent: AdapterView<*>) {}
 }
